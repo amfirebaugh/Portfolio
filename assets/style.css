@@ -1,0 +1,52 @@
+.allieRow {
+    width: 90%;
+    margin-bottom: 0px;
+    padding-top: 30px;
+}
+
+#allieName {
+    color: white;
+    text-align: center;
+}
+
+#allieNav {
+    background-color: none;
+}
+
+.aParaHeight {
+    max-height: 350px;
+}
+
+#allieAboutMe {
+    /* background-image: url("images/pink_dust.png"); */
+    background-color: #3F2D2A;
+}
+
+#aboutMeBox {
+    margin-bottom: 0px;
+    padding-bottom: 20px;    
+}
+
+#alliePortfolio {
+    background-color: #65504D;
+    margin-bottom: 0px;
+    padding-bottom: 20px;
+}
+
+.aSite {
+    color: #B4413B;
+}
+
+/* #allieProj {
+    margin-top: 0px;
+    padding: 10px;
+    padding-top: 40px;
+} */
+
+#allieContact {
+    background-color: #CEB1AB;
+}
+
+h2 {
+    margin: 0px;
+}
