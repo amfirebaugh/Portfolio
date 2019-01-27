@@ -21,9 +21,9 @@
                         <div class="row allieRow">
                             <h1 id="allieName" class="header">Welcome!</h1>
                         </div>
-                        <ul id="allieNavLinkList" class="right nav-mobile">
-                            <li><a href="">Projects</a></li>
-                            <li><a href="">Contact</a></li>
+                        <ul id="allieNavLinkList" class=" section right nav-mobile">
+                            <li><a id="projectLink" href="#">Projects</a></li>
+                            <li><a id="contactLink" href="#">Contact</a></li>
                         </ul>
                     </div>
                 </nav>
@@ -34,20 +34,17 @@
     <div id="allieAboutMe">
         <div class="row container allieRow" id="aboutMeBox">
             <div class="col m12">
-                <h2 class="header">About Me</h2>
-                <div class="card horizontal medium">
-                <div class="card-image">
-                    <img src="assets/images/starting_bootcamp.jpg">
-                </div>
-                <div class="card-stacked">
-                    <div class="card-content">
-                        <h3 class="header">Alexandra (Allie) Mae Firebaugh</h3>
-                        <p>I am a very simple card. I am good at containing small bits of information.</p>
+                <h3>About Me</h3>
+                <div class="row container allieRow">
+                    <div class="col m5">
+                        <img class="responsive-image left" id="aboutMeImage" src="assets/images/starting_bootcamp.jpg">
                     </div>
-                    <div class="card-action">
-                    <a href="#">This is a link</a>
+                    <div class="col m7">
+                        <div id="aboutMeInfoDiv" class="right">
+                            <h5>Alexandra (Allie) Mae Firebaugh</h5>
+                            <p>I’m a Full Stack Web Developer with a background in Physics, Mathematics, and Teaching. I’m always seeking new knowledge; it’s what drives me above all else. My interests revolve around solving problems and creating web applications that are user-friendly and efficient. I am notorious for my positive attitude, hardworking nature, and meticulous attention to detail.</p>
+                        </div>
                     </div>
-                </div>
                 </div>
             </div>
         </div>
@@ -64,7 +61,7 @@
 
     <div id="alliePortfolio">
         <div class="row container allieRow">
-            <h2 class="header" id="allieProj">Projects</h2>
+            <h3 id="allieProj">Projects</h3>
         </div>
         <div class="row container allieRow">
             <!-- homework 2 -->
@@ -160,14 +157,15 @@
 
     <div id="allieContact">
         <div class="row container allieRow">
-            <h2 class="header">Contact</h2>
+            <h3>Contact</h3>
             <div class="nav-wrapper" id="allieNavBottom"></div>
                 <nav class="transparent z-depth-0">
                     <ul id="contactLinksList" class="center nav-mobile">
-                        <li><a href="mailto:alliefirebaugh@gmail.com">Email Me</a></li>
-                        <li><a href="https://github.com/amfirebaugh" target="_blank"><ion-icon name="logo-github"></ion-icon>GitHub</a></li>
-                        <li><a href="https://www.linkedin.com/in/allie-firebaugh/" target="_blank"><ion-icon name="logo-linkedin"></ion-icon>LinkedIn</a></li>
-                        <li><a href="attachments/Firebaugh_technical_resume_1_26_19.pdf" target="_blank">My Resume</a></li>
+                        <li><a class="aSite" href="mailto:alliefirebaugh@gmail.com">Email Me</a></li>
+                        <li><a class="aSite" href="#">804-356-1055</a></li>
+                        <li><a class="aSite" href="https://github.com/amfirebaugh" target="_blank"><ion-icon name="logo-github"></ion-icon>GitHub</a></li>
+                        <li><a class="aSite" href="https://www.linkedin.com/in/allie-firebaugh/" target="_blank"><ion-icon name="logo-linkedin"></ion-icon>LinkedIn</a></li>
+                        <li><a class="aSite" href="attachments/Firebaugh_technical_resume_1_26_19.pdf" target="_blank">My Resume</a></li>
                     </ul>
                 </nav>
             </div>
