@@ -9,8 +9,12 @@
     text-align: center;
 }
 
-#allieNav {
+#allieNav, #allieNavBottom {
     background-color: none;
+}
+
+#allieNavLinkList {
+    margin-top: 95px;
 }
 
 .aParaHeight {
@@ -43,10 +47,22 @@
     padding-top: 40px;
 } */
 
+/* #allieContactDiv {
+    height: 300px;
+} */
+
 #allieContact {
     background-color: #CEB1AB;
 }
 
+/* #contactLinksList {
+    margin: auto;
+} */
+
 h2 {
     margin: 0px;
 }
+
+/* #allieCustom, nav {
+    background-color: none;
+} */
