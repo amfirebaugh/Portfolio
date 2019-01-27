@@ -13,24 +13,32 @@
     <link rel="stylesheet" type="text/css" media="screen" href="assets/style.css"/>
 </head>
 <body id="allieCustom">
+    <div id="allieNav" class="container">
+        <div class="row allieRow">
+            <div class="col s12">
+                <nav class="transparent z-depth-0">
+                    <div class="nav-wrapper">
+                        <h1 id="allieName" class="header overlay">Welcome!</h1>
+                        <div class="nav-content">
+                            <ul class="section table-of-contents center">
+                                <li><a  id="navProjectLink" href="#alliePortfolio">Project</a></li>
+                                <li><a  id="navContactLink"href="#allieContact">Contact</a></li>
+                            </ul>
+                        </div>
+                        <!-- <h6 class="header overlay" id="projectLink">Projects</h6>
+                        <h6 class="header overlay" id="contactLink">Contact</h6> -->
+                    <!-- End nav-wrapper div -->
+                    </div>
+                </nav>
+                    <!-- FYI it's only going to let me have one header.... -->
+            <!-- End col s12 -->
+            </div>
+        <!-- End row allieRow -->
+        </div>
+    <!-- End container -->
+    </div>
     <div class="parallax-container aParaHeight">
         <div class="parallax"><img src="assets/images/dark_wood.png">  
-            <div class="container">
-                <div class="row allieRow">
-                    <div class="col s8">
-                        <nav class="transparent z-depth-0">
-                            <div class="nav-wrapper">
-                                <h1 id="allieName" class="header overlay">Welcome!</h1>
-                                <h6 class="header overlay" id="projectLink">Projects</h6>
-                            </div>
-                            <!-- FYI it's only going to let me have one header.... -->
-                                <h6 class="header overlay" id="contactLink">Contact</h6>
-                    <!-- End col m8 -->
-                    </div>
-                <!-- End row allieRow -->
-                </div>
-            <!-- End container -->
-            </div>
         <!-- End parallax with image -->
         </div>
     <!-- End parallax-container -->
@@ -64,7 +72,7 @@
         </div>
     </div>
 
-    <div id="alliePortfolio">
+    <div id="alliePortfolio" class="scrollspy">
         <div class="row container allieRow">
             <h3 id="allieProj">Projects</h3>
         </div>
@@ -160,7 +168,7 @@
         </div>
     </div>
 
-    <div id="allieContact">
+    <div id="allieContact" class="scrollspy">
         <div class="row container allieRow">
             <h3>Contact</h3>
             <div class="nav-wrapper"></div>

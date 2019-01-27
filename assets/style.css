@@ -4,9 +4,16 @@
     padding-top: 30px;
 }
 
+#allieNav {
+    background-color: #1E1212;
+    width: 100%;
+}
+
 #allieName {
     color: white;
     text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 #allieNavLinkList {
