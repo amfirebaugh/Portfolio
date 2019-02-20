@@ -21,10 +21,6 @@ body {
     color: #3F2D2A;
 }
 
-/* .aParaHeight {
-    max-height: 150px;
-} */
-
 #allieBanner {
     padding-top: 20px;
     padding-bottom: 20px;
@@ -93,7 +89,6 @@ body {
 h3 {
     text-align: center;
     padding: 30px;
-    /* margin: 0px; */
 }
 
 #allieBottom {
