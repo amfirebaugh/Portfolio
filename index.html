@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Allie Firebaugh</title>
+    <title>A.Firebaugh</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Materialize CSS -->
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"/>
@@ -11,85 +11,64 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!-- Custom CSS -->
     <link rel="stylesheet" type="text/css" media="screen" href="assets/style.css"/>
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Pattaya" rel="stylesheet">
 </head>
-<body id="allieCustom">
-    <div id="allieNav">
-        <!-- <div  class="container"> -->
+<body>
+    <!-- Nav Bar -->
+    <div id="allieNav" class="scrollspy">
         <div class="row container allieRow">
-            <div class="col s12">
-                <nav class="transparent z-depth-0">
-                    <div class="nav-wrapper center">
-                        <h1 id="allieName" class="header overlay">Welcome!</h1>
-                        <div class="nav-content center">
-                            <ul class="section center table-of-contents test">
-                                <li><a class="center" id="navProjectLink" href="#alliePortfolio">Projects</a></li>
-                                <li><a class="center" id="navContactLink" href="#allieContact">Contact</a></li>
-                            </ul>
-                        </div>
-                        <!-- <h6 class="header overlay" id="projectLink">Projects</h6>
-                        <h6 class="header overlay" id="contactLink">Contact</h6> -->
-                    <!-- End nav-wrapper div -->
-                    </div>
-                </nav>
-                    <!-- FYI it's only going to let me have one header.... -->
-            <!-- End col s12 -->
-            </div>
-        <!-- End row container allieRow allieNav-->
+            <nav class="transparent z-depth-0">
+                <div class="nav-wrapper">
+                    <a href="#" class="brand-logo left" id="allieLogo">Allie Firebaugh</a>
+                    <ul id="nav-mobile" class="right hide-on-small-and-down">
+                        <li><a class="allieNavLinks" href="#alliePortScroll">Projects</a></li>
+                        <li><a class="allieNavLinks" href="#allieBottom">Inspiration</a></li>
+                        <li><a class="allieNavLinks" href="#allieContact">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
         </div>
-    </div>
-        
-    <!-- End container -->
-    <!-- </div> -->
-    <div class="parallax-container aParaHeight">
-        <div class="parallax"><img src="assets/images/dark_wood.png">  
-        <!-- End parallax with image -->
-        </div>
-    <!-- End parallax-container -->
     </div>
 
     <div id="allieAboutMe">
+        <div class="row container allieRow" id="allieBanner">
+            <div class="col m12 center-align">
+                <h3>Full Stack Developer in Richmond, VA</h3>
+            </div>
+        </div>
+
         <div class="row container allieRow" id="aboutMeBox">
-            <div class="col m12">
-                <h3>About Me</h3>
-                <div class="row container allieRow">
-                    <div class="col m5">
-                        <img class="responsive-image" id="aboutMeImage" src="assets/images/starting_bootcamp.jpg">
-                    </div>
-                    <div class="col m7">
-                        <div id="aboutMeInfoDiv">
-                            <h5>Alexandra (Allie) Mae Firebaugh</h5>
-                            <p>I’m a Full Stack Web Developer with a background in Physics, Mathematics, and Teaching. I’m always seeking new knowledge; it’s what drives me above all else. My interests revolve around solving problems and creating web applications that are user-friendly and efficient. I am notorious for my positive attitude, hardworking nature, and meticulous attention to detail.</p>
-                        </div>
-                    </div>
+            <div class="col m3">
+                <img class="responsive-image" id="aboutMeImage" src="assets/images/starting_bootcamp.jpg">
+            </div>
+            <div class="col m8">
+                <div id="aboutMeInfoDiv">
+                    <h5 id="allieName">Alexandra (Allie) Mae Firebaugh</h5>
+                    <p>I’m a Full Stack Web Developer with a background in Physics, Mathematics, and Teaching. I’m always seeking new knowledge; it’s what drives me above all else. My interests revolve around solving problems and creating web applications that are user-friendly and efficient. I am notorious for my positive attitude, hardworking nature, and meticulous attention to detail.</p>
                 </div>
             </div>
         </div>
     </div>
 
-    <div class="parallax-container aParaHeight">
-        <div class="parallax"><img src="assets/images/dark_wood.png">
-            <div class="container">
-                <div class="row">
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div id="alliePortfolio" class="scrollspy">
+    <div id="alliePortfolio">
         <div class="row container allieRow">
             <h3 id="allieProj">Projects</h3>
         </div>
-        <div class="row container allieRow">
+        <!-- Beginning of Row 1 of project images -->
+        <div class="row container allieRow scrollspy" id="alliePortScroll">
             <!-- homework 2 -->
-            <div class="col m3">
-                <div class="card small">
+            <div class="col m4">
+                <div class="card medium">
                     <div class="card-image waves-effect waves-block waves-light">
                         <img class="activator" src="assets/images/crystal_collector_game.jpeg">
                     </div>
                     <div class="card-content">
                         <span class="card-title activator grey-text text-darken-4">Crystal Collector<i class="material-icons right">more_vert</i></span>
-                        <p><a class="aSite" href="https://amfirebaugh.github.io/unit-4-game/">Click here to visit site.</a></p>
-                        <p><a class="aSite" href="https://github.com/amfirebaugh/unit-4-game">Click here to visit code.</a></p>
+                        <div id="linkIcons">
+                            <span><a class="aSite" href="https://amfirebaugh.github.io/unit-4-game/"><i class="material-icons medium">web</i></a></span>
+                            <span><a class="aSite" href="https://github.com/amfirebaugh/unit-4-game"><i class="material-icons medium">code</i></a></span>
+                        </div>
                     </div>
                     <div class="card-reveal">
                         <span class="card-title grey-text text-darken-4">Crystal Collector<i class="material-icons right">close</i></span>
@@ -99,15 +78,15 @@
                 </div>
             </div>
             <!-- homework 4 -->
-            <div class="col m3">
-                <div class="card small">
+            <div class="col m4">
+                <div class="card medium">
                     <div class="card-image waves-effect waves-block waves-light">
                         <img class="activator" src="assets/images/giphy_hw.JPG">
                     </div>
                     <div class="card-content">
                         <span class="card-title activator grey-text text-darken-4">Giphy Fun<i class="material-icons right">more_vert</i></span>
-                        <p><a class="aSite" href="https://amfirebaugh.github.io/giphy-hw/">Click here to visit site.</a></p>
-                        <p><a class="aSite" href="https://github.com/amfirebaugh/giphy-hw">Click here to visit code.</a></p>
+                        <span><a class="aSite" href="https://amfirebaugh.github.io/giphy-hw/"><i class="material-icons medium">web</i></a></span>
+                        <span><a class="aSite" href="https://github.com/amfirebaugh/giphy-hw"><i class="material-icons medium">code</i></a></span>
                     </div>
                     <div class="card-reveal">
                         <span class="card-title grey-text text-darken-4">Giphy Fun<i class="material-icons right">close</i></span>
@@ -117,15 +96,15 @@
                 </div>
             </div>
             <!-- homework 5 -->
-            <div class="col m3">
-                <div class="card small">
+            <div class="col m4">
+                <div class="card medium">
                     <div class="card-image waves-effect waves-block waves-light">
                         <img class="activator" src="assets/images/train_scheduler.JPG">
                     </div>
                     <div class="card-content">
                         <span class="card-title activator grey-text text-darken-4">Train Scheduler<i class="material-icons right">more_vert</i></span>
-                        <p><a class="aSite" href="https://amfirebaugh.github.io/Train-Scheduler/">Click here to visit site.</a></p>
-                        <p><a class="aSite" href="https://github.com/amfirebaugh/Train-Scheduler">Click here to visit code.</a></p>
+                        <span><a class="aSite" href="https://amfirebaugh.github.io/Train-Scheduler/"><i class="material-icons medium">web</i></a></span>
+                        <span><a class="aSite" href="https://github.com/amfirebaugh/Train-Scheduler"><i class="material-icons medium">code</i>.</a></span>
                     </div>
                     <div class="card-reveal">
                         <span class="card-title grey-text text-darken-4">Train Scheduler<i class="material-icons right">close</i></span>
@@ -134,16 +113,27 @@
                     </div>
                 </div>
             </div>
+        <!-- End Row 1 of project images -->
+        </div>
+
+        <div class="row container allieRow">
+            <div class="col m12 right-align backToTopPad">
+                <span><a class="backToTop" href="#allieNav">Click to go back to the top.</a></span>
+            </div>
+        </div>
+
+        <!-- Beginning of Row 2 of project images -->
+        <div class="row container allieRow">
             <!-- project 1 -->
-            <div class="col m3">
-                <div class="card small">
+            <div class="col m4">
+                <div class="card medium">
                     <div class="card-image waves-effect waves-block waves-light">
                         <img class="activator" src="assets/images/lost_in_space.JPG">
                     </div>
                     <div class="card-content">
                         <span class="card-title activator grey-text text-darken-4">Lost in Space<i class="material-icons right">more_vert</i></span>
-                        <p><a class="aSite" href="https://amfirebaugh.github.io/fireballsproject1/">Click here to visit site.</a></p>
-                        <p><a class="aSite" href="https://github.com/amfirebaugh/fireballsproject1">Click here to visit code.</a></p>
+                        <span><a class="aSite" href="https://amfirebaugh.github.io/fireballsproject1/"><i class="material-icons medium">web</i></a></span>
+                        <span><a class="aSite" href="https://github.com/amfirebaugh/fireballsproject1"><i class="material-icons medium">code</i></a></span>
                     </div>
                     <div class="card-reveal">
                         <span class="card-title grey-text text-darken-4">Lost in Space<i class="material-icons right">close</i></span>
@@ -152,20 +142,16 @@
                     </div>
                 </div>
             </div>
-        <!-- End Row 1 of project images -->
-        </div>
-
-        <!-- Begin Row 2 of project images -->
-        <div class="row container allieRow">
+        
             <!-- homework 6 -->
-            <div class="col m3">
-                <div class="card small">
+            <div class="col m4">
+                <div class="card medium">
                     <div class="card-image waves-effect waves-block waves-light">
-                        <img class="activator" src="assets/images/spotifyThis_song.JPG">
+                        <img class="activator" src="assets/images/doWhatItSays_spotify.JPG">
                     </div>
                     <div class="card-content">
                         <span class="card-title activator grey-text text-darken-4">Liri Node App<i class="material-icons right">more_vert</i></span>
-                        <p><a class="aSite" href="https://github.com/amfirebaugh/liri-node-app">Click here to visit code.</a></p>
+                        <span><a class="aSite" href="https://github.com/amfirebaugh/liri-node-app"><i class="material-icons medium">code</i></a></span>
                     </div>
                     <div class="card-reveal">
                         <span class="card-title grey-text text-darken-4">Liri Node App<i class="material-icons right">close</i></span>
@@ -176,14 +162,14 @@
             </div>
 
             <!-- homework 7 -->
-            <div class="col m3">
-                <div class="card small">
+            <div class="col m4">
+                <div class="card medium">
                     <div class="card-image waves-effect waves-block waves-light">
-                        <img class="activator" src="assets/images/WamazonManager.JPG">
+                        <img class="activator alliePortImg" src="assets/images/WamazonManager.JPG">
                     </div>
                     <div class="card-content">
                         <span class="card-title activator grey-text text-darken-4">Wamazon Node and MySQL App<i class="material-icons right">more_vert</i></span>
-                        <p><a class="aSite" href="https://github.com/amfirebaugh/wamazon">Click here to visit code.</a></p>
+                        <span><a class="aSite" href="https://github.com/amfirebaugh/wamazon"><i class="material-icons medium">code</i></a></span>
                     </div>
                     <div class="card-reveal">
                         <span class="card-title grey-text text-darken-4">Wamazon Node and MySQL App<i class="material-icons right">close</i></span>
@@ -194,7 +180,7 @@
             </div>
 
         </div>
-
+    <!-- End of Portfolio / Projects Section -->
     </div>
 
     <!-- Homeworks/Projects I want to move back in once they are updated/debugged/etc -->
@@ -204,44 +190,54 @@
     <!-- Homework 3 = Trivia Game -->
     <!-- https://amfirebaugh.github.io/TriviaGame/ -->
 
-    <div class="parallax-container aParaHeight">
-        <div class="parallax"><img src="assets/images/dark_wood.png">
-            <div class="container">
-                <div class="row">
+    <div id="allieBottom" class="scrollspy">
+        <!-- Row for Inspiration Content -->
+        <div class="row container allieRow" id="technicalCol">
+            <h4 class="center-align">Resources I enjoy using to learn new things:</h4>
+            <!-- Left Column -->
+            <div class="col m6">
+                <h5 class="titleUnderline">Technical:</h5>
+                <h6>PLURALSIGHT</h6>
+                <h6>w3schools</h6>
+                <h6>stack overflow</h6>
+                <h6>Programmable Web</h6>
+                <h6>npm</h6>
+                <h6>You Don't Know JS</h6>
+            </div>
+            
+            <!-- Right Column -->
+            <div class="col m6" id="PodYTCol">
+                <h5 class="titleUnderline">Podcasts and Youtube Channels:</h5>
+                <h6>CodeNewbies (Podcast)</h6>
+                <h6>Syntax (Podcast)</h6>
+                <h6>Net Ninja (YouTube)</h6>
+                <h6>DevTips (YouTube)</h6>
+                <h6>Traversy Media (YouTube)</h6>
+                <h6>CS Dojo (YouTube)</h6>
+            </div>
+        </div>
+
+        <!-- Just row for link to go back to top -->
+        <div id="backToTopPadBottom" class="row container allieRow">
+            <div class="col m12 right-align backToTopPad">
+                <span><a class="backToTop" href="#allieNav">Click to go back to the top.</a></span>
+            </div>
+        </div>
+
+        <div class="row container allieRow scrollspy" id="allieContact">
+            <h4 class="center-align">Contact Me</h4>
+            <div class="col m12 center-align">
+                <div id="contactLinksList">
+                    <span><a class="acLink" href="mailto:alliefirebaugh@gmail.com">Email Me</a></span>
+                    <span><a class="acLink" href="#">804-356-1055</a></span>
+                    <span><a class="acLink" href="https://github.com/amfirebaugh" target="_blank"><ion-icon name="logo-github"></ion-icon>GitHub</a></span>
+                    <span><a class="acLink" href="https://www.linkedin.com/in/allie-firebaugh/" target="_blank"><ion-icon name="logo-linkedin"></ion-icon>LinkedIn</a></span>
+                    <span><a class="acLink" href="attachments/Firebaugh_technical_resume_1_26_19.pdf" target="_blank">My Resume</a></span>
                 </div>
             </div>
         </div>
     </div>
 
-    <div id="allieContact" class="scrollspy">
-        <div class="row container allieRow">
-            <h3>Contact</h3>
-            <div class="nav-wrapper"></div>
-                <nav class="transparent z-depth-0" id="allieNavBottom">
-                    <ul id="contactLinksList" class="nav-mobile">
-                        <li><a class="acLink" href="mailto:alliefirebaugh@gmail.com">Email Me</a></li>
-                        <li><a class="acLink" href="#">804-356-1055</a></li>
-                        <li><a class="acLink" href="https://github.com/amfirebaugh" target="_blank"><ion-icon name="logo-github"></ion-icon>GitHub</a></li>
-                        <li><a class="acLink" href="https://www.linkedin.com/in/allie-firebaugh/" target="_blank"><ion-icon name="logo-linkedin"></ion-icon>LinkedIn</a></li>
-                        <li><a class="acLink" href="attachments/Firebaugh_technical_resume_1_26_19.pdf" target="_blank">My Resume</a></li>
-                    </ul>
-                </nav>
-            </div>
-        </div>
-    </div>
-
-    <div class="parallax-container aParaHeight">
-        <div class="parallax"><img src="assets/images/dark_wood.png">
-            <div class="container">
-                <div class="row">
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-    
-    
 
 <!-- JQuery -->
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>

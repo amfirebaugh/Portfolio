@@ -1,7 +1,6 @@
 .allieRow {
     width: 90%;
     margin-bottom: 0px;
-    padding-top: 30px;
 }
 
 #allieCustom.container {
@@ -9,49 +8,64 @@
 }
 
 #allieNav {
-    background-color: #1E1212;
+    background-color: #CEB1AB;
+    color: #1E1212;
     width: 100%;
 }
 
-.test {
-    margin: 0 auto;
+#allieLogo #allieName #allieProj {
+    font-family: 'Pattaya', sans-serif;
 }
 
-#allieName {
-    color: white;
-    text-align: center;
-    margin-top: 10px;
-    margin-bottom: 10px;
+body {
+    color: #3F2D2A;
 }
 
-#allieNavLinkList {
-    margin-top: 0px;
-    margin-bottom: 0px;
-    padding-bottom: 5px;
-}
+/* .aParaHeight {
+    max-height: 150px;
+} */
 
-#navProjectLink, #navContactLink {
-    color: white;
-}
-
-.aParaHeight {
-    max-height: 250px;
+#allieBanner {
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 #allieAboutMe {
-    /* background-image: url("images/pink_dust.png"); */
-    background-color: #3F2D2A;
+    background-color: #CEB1AB;
+    padding-top: 20px;
 }
+
+#contactLinksList {
+    margin-top: 70px;
+}
+
+.acLink {
+    color: #CB8F87;
+    padding-right: 30px;
+    padding-left: 30px;
+    font-size: 16px;
+}
+
+.acLink:hover {
+    color: white;
+}
+
+.acLink:visited {
+    color: rgb(138, 110, 110);
+}
+
+/* #570302 old link color */
 
 #aboutMeInfoDiv {
-    background-color: #ae8160;
-    padding: 20px;
+    padding-top: 20px;
 }
-/* #CB8F87 */
+/* #CB8F87 
+    #3F2D2A - dark
+*/
 
 #aboutMeImage {
-    max-height: 95%;
-    max-width: 95%;
+    max-height: 90%;
+    max-width: 90%;
 }
 
 #aboutMeBox {
@@ -63,40 +77,53 @@
 #alliePortfolio {
     background-color: #65504D;
     margin-bottom: 0px;
+    padding-top: 20px;
     padding-bottom: 40px;
+    color: white;
+}
+
+#allieContact {
+    color: #CB8F87;
 }
 
 .aSite {
     color: #B4413B;
 }
 
-/* #allieProj {
-    margin-top: 0px;
-    padding: 10px;
-    padding-top: 40px;
-} */
-
-/* #allieContactDiv {
-    height: 300px;
-} */
-
-#allieContact {
-    background-color: #CEB1AB;
-    padding-bottom: 20px;
-}
-
-.acLink {
-    color: #570302;
-}
-
-nav ul {
-    text-align: center;
-}
-
 h3 {
     text-align: center;
+    padding: 30px;
+    /* margin: 0px; */
 }
 
-/* #allieCustom, nav {
-    background-color: none;
-} */
+#allieBottom {
+    width: 100%;
+    background-color: #3F2D2A;
+    height: 100%;
+    color: #B4413B;
+    padding-top: 20px;
+    padding-bottom: 75px;
+}
+
+#technicalCol #PodYTCol {
+    margin-top: 30px;
+}
+
+.titleUnderline {
+    text-decoration: underline;
+}
+
+.backToTop {
+    color: white;
+    font-size: 16px;
+}
+
+.backToTopPad {
+    padding: 20px;
+    margin: 20px;
+}
+
+#backToTopPadBottom {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
