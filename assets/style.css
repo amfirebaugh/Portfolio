@@ -17,6 +17,10 @@
     font-family: 'Pattaya', sans-serif;
 }
 
+#allieName {
+    margin-top: 0px;
+}
+
 body {
     color: #3F2D2A;
 }
@@ -50,12 +54,8 @@ body {
     color: rgb(138, 110, 110);
 }
 
-/* #570302 old link color */
-
-#aboutMeInfoDiv {
-    padding-top: 20px;
-}
-/* #CB8F87 
+/* #570302 old link color
+    #CB8F87 
     #3F2D2A - dark
 */
 
