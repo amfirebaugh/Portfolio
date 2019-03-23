@@ -20,14 +20,20 @@
         <div class="row container allieRow">
             <nav class="transparent z-depth-0">
                 <div class="nav-wrapper">
-                    <a href="#" class="brand-logo left" id="allieLogo">Allie Firebaugh</a>
+                    <a href="#!" class="brand-logo left" id="allieLogo">Allie Firebaugh</a>
+                    <a href="#" data-target="mobile-demo" class="right sidenav-trigger hide-on-med-and-up"><i class="material-icons">menu</i></a>
                     <ul id="nav-mobile" class="right hide-on-small-and-down">
-                        <li><a class="allieNavLinks" href="#portfolioIntro">Projects</a></li>
+                        <li><a class="allieNavLinks" href="#alliePortScroll">Projects</a></li>
                         <li><a class="allieNavLinks" href="#allieBottom">Inspiration</a></li>
                         <li><a class="allieNavLinks" href="#allieContact">Contact</a></li>
                     </ul>
                 </div>
             </nav>
+            <ul class="sidenav" id="mobile-demo">
+                <li><a class="allieNavLinks" href="#alliePortScroll">Projects</a></li>
+                <li><a class="allieNavLinks" href="#allieBottom">Inspiration</a></li>
+                <li><a class="allieNavLinks" href="#allieContact">Contact</a></li>
+            </ul>
         </div>
     </div>
 
@@ -52,24 +58,9 @@
     </div>
 
     <div id="alliePortfolio">
-        <div class="row container allieRow" id="portfolioIntro">
+        <div class="row container allieRow">
             <div class="col m12">
-                <h3 id="allieProj">Projects</h3>
-            </div>
-            <div class="col m4">
-                <i class="material-icons medium aSite">web</i>
-                <br>
-                <p>This icon will link directly to the live site of this project.</p>
-            </div>
-            <div class="col m4">
-                <i class="material-icons medium aSite">code</i>
-                <br>
-                <p>This icon will link directly to the code of this project hosted on GitHub.</p>
-            </div>
-            <div class="col m4">
-                <i class="material-icons medium grey-text text-darken-4">more_vert</i>
-                <br>
-                <p>This icon will tell you what technologies were used and provide more information about this project.</p>
+                <h3>Projects</h3>
             </div>
         </div>
 
@@ -147,7 +138,7 @@
         </div> -->
 
         <!-- Beginning of Row 2 of project images -->
-        <div class="row container allieRow">
+        <div class="row container allieRow scrollspy" id="alliePortScroll">
             <!-- project 1 -->
             <div class="col m4">
                 <div class="card medium">
@@ -156,8 +147,24 @@
                     </div>
                     <div class="card-content">
                         <span class="card-title activator grey-text text-darken-4">Lost in Space<i class="material-icons right">more_vert</i></span>
-                        <span><a class="aSite iconSpacer" href="https://amfirebaugh.github.io/fireballsproject1/"><i class="material-icons medium">web</i></a></span>
-                        <span><a class="aSite iconSpacer" href="https://github.com/amfirebaugh/fireballsproject1"><i class="material-icons medium">code</i></a></span>
+                        <div class="row">
+                            <div class="col m6">
+                                <span><a class="aSite iconSpacer" href="https://amfirebaugh.github.io/fireballsproject1/"><i class="material-icons medium">web</i></a></span>
+                                <div class="row">
+                                    <div class="col m12">
+                                        <span class="aSite">Live Site</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col m6">
+                                <span><a class="aSite iconSpacer" href="https://github.com/amfirebaugh/fireballsproject1"><i class="material-icons medium">code</i></a></span>
+                                <div class="row">
+                                    <div class="col m12">
+                                        <span class="aSite">View Code</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     <div class="card-reveal">
                         <span class="card-title grey-text text-darken-4">Lost in Space<i class="material-icons right">close</i></span>
@@ -176,7 +183,16 @@
                     </div>
                     <div class="card-content">
                         <span class="card-title activator grey-text text-darken-4">Liri Node App<i class="material-icons right">more_vert</i></span>
-                        <span><a class="aSite" href="https://github.com/amfirebaugh/liri-node-app"><i class="material-icons medium">code</i></a></span>
+                        <div class="row">
+                            <div class="col m12">
+                                <span><a class="aSite" href="https://github.com/amfirebaugh/liri-node-app"><i class="material-icons medium">code</i></a></span>
+                                <div class="row">
+                                    <div class="col m12">
+                                        <span class="aSite">View Code</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     <div class="card-reveal">
                         <span class="card-title grey-text text-darken-4">Liri Node App<i class="material-icons right">close</i></span>
@@ -194,8 +210,17 @@
                         <img class="activator alliePortImg" src="assets/images/WamazonManager.JPG">
                     </div>
                     <div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4">Wamazon Node and MySQL App<i class="material-icons right">more_vert</i></span>
-                        <span><a class="aSite" href="https://github.com/amfirebaugh/wamazon"><i class="material-icons medium">code</i></a></span>
+                        <span class="card-title activator grey-text text-darken-4">Wamazon App<i class="material-icons right">more_vert</i></span>
+                        <div class="row">
+                            <div class="col m12">
+                                <span><a class="aSite" href="https://github.com/amfirebaugh/wamazon"><i class="material-icons medium">code</i></a></span>
+                                <div class="row">
+                                    <div class="col m12">
+                                        <span class="aSite">View Code</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     <div class="card-reveal">
                         <span class="card-title grey-text text-darken-4">Wamazon Node and MySQL App<i class="material-icons right">close</i></span>
@@ -205,7 +230,6 @@
                     </div>
                 </div>
             </div>
-            
         <!-- End of Row 2 of projects -->
         </div>
 
@@ -225,8 +249,24 @@
                     </div>
                     <div class="card-content">
                         <span class="card-title activator grey-text text-darken-4">Friend Finder<i class="material-icons right">more_vert</i></span>
-                        <span><a class="aSite iconSpacer" href="https://friend-finder-firebaugh.herokuapp.com/"><i class="material-icons medium">web</i></a></span>
-                        <span><a class="aSite" href="https://github.com/amfirebaugh/FriendFinder"><i class="material-icons medium">code</i></a></span>
+                        <div class="row">
+                            <div class="col m6">
+                                <span><a class="aSite iconSpacer" href="https://friend-finder-firebaugh.herokuapp.com/"><i class="material-icons medium">web</i></a></span>
+                                <div class="row">
+                                    <div class="col m12">
+                                        <span class="aSite">View Site</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col m6">
+                                <span><a class="aSite" href="https://github.com/amfirebaugh/FriendFinder"><i class="material-icons medium">code</i></a></span>
+                                <div class="row">
+                                    <div class="col m12">
+                                        <span class="aSite">View Code</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     <div class="card-reveal">
                         <span class="card-title grey-text text-darken-4">Friend Finder<i class="material-icons right">close</i></span>
@@ -241,12 +281,28 @@
             <div class="col m4">
                 <div class="card medium">
                     <div class="card-image waves-effect waves-block waves-light">
-                        <img class="activator alliePortImg" src="assets/images/Burgerlicious.JPG">
+                        <img class="activator alliePortImg" src="assets/images/Burgerlicious_2.JPG">
                     </div>
                     <div class="card-content">
                         <span class="card-title activator grey-text text-darken-4">Burgerlicious<i class="material-icons right">more_vert</i></span>
-                        <span><a class="aSite iconSpacer" href="https://burgerlicious-fire.herokuapp.com/"><i class="material-icons medium">web</i></a></span>
-                        <span><a class="aSite" href="https://github.com/amfirebaugh/Burger-Maker/blob/master/README.md"><i class="material-icons medium">code</i></a></span>
+                        <div class="row">
+                            <div class="col m6">
+                                <span><a class="aSite iconSpacer" href="https://burgerlicious-fire.herokuapp.com/"><i class="material-icons medium">web</i></a></span>
+                                <div class="row">
+                                    <div class="col m12">
+                                        <span class="aSite">View Site</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col m6">
+                                <span><a class="aSite" href="https://github.com/amfirebaugh/Burger-Maker/blob/master/README.md"><i class="material-icons medium">code</i></a></span>
+                                <div class="row">
+                                    <div class="col m12">
+                                        <span class="aSite">View Code</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     <div class="card-reveal">
                         <span class="card-title grey-text text-darken-4">Burgerlicious<i class="material-icons right">close</i></span>
@@ -265,8 +321,24 @@
                     </div>
                     <div class="card-content">
                         <span class="card-title activator grey-text text-darken-4">InteRXact<i class="material-icons right">more_vert</i></span>
-                        <span><a class="aSite iconSpacer" href="https://interxact.herokuapp.com/"><i class="material-icons medium">web</i></a></span>
-                        <span><a class="aSite" href="https://github.com/amfirebaugh/fireballsProject2"><i class="material-icons medium">code</i></a></span>
+                        <div class="row">
+                            <div class="col m6">
+                                <span><a class="aSite iconSpacer" href="https://interxact.herokuapp.com/"><i class="material-icons medium">web</i></a></span>
+                                <div class="row">
+                                    <div class="col m12">
+                                        <span class="aSite">View Site</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col m6">
+                                <span><a class="aSite" href="https://github.com/amfirebaugh/fireballsProject2"><i class="material-icons medium">code</i></a></span>
+                                <div class="row">
+                                    <div class="col m12">
+                                        <span class="aSite">View Code</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     <div class="card-reveal">
                         <span class="card-title grey-text text-darken-4">InteRXact<i class="material-icons right">close</i></span>
@@ -286,13 +358,6 @@
 
     <!-- End of Portfolio / Projects Section -->
     </div>
-
-    <!-- Homeworks/Projects I want to move back in once they are updated/debugged/etc -->
-    <!-- Homework 1 = Hangman Game / Word Guess Game -->
-    <!--  https://amfirebaugh.github.io/Word_Guess_Game/ -->
-
-    <!-- Homework 3 = Trivia Game -->
-    <!-- https://amfirebaugh.github.io/TriviaGame/ -->
 
     <div id="allieBottom" class="scrollspy">
         <!-- Row for Inspiration Content -->
@@ -334,11 +399,20 @@
             <h4 class="center-align">Contact Me</h4>
             <div class="col m12 center-align">
                 <div id="contactLinksList">
-                    <span><a class="acLink" href="mailto:alliefirebaugh@gmail.com">Email Me</a></span>
-                    <span><a class="acLink" href="#">804-356-1055</a></span>
-                    <span><a class="acLink" href="https://github.com/amfirebaugh" target="_blank"><ion-icon name="logo-github"></ion-icon>GitHub</a></span>
-                    <span><a class="acLink" href="https://www.linkedin.com/in/allie-firebaugh/" target="_blank"><ion-icon name="logo-linkedin"></ion-icon>LinkedIn</a></span>
-                    <span><a class="acLink" href="attachments/Firebaugh_technical_resume_1_26_19.pdf" target="_blank">My Resume</a></span>
+                    <div class="row">
+                        <div class="col m3">
+                            <span><a class="acLink" href="mailto:alliefirebaugh@gmail.com">Email Me</a></span>
+                        </div>
+                        <div class="col m3">
+                            <span><a class="acLink" href="https://github.com/amfirebaugh" target="_blank"><ion-icon name="logo-github"></ion-icon>GitHub</a></span>
+                        </div>
+                        <div class="col m3">
+                            <span><a class="acLink" href="https://www.linkedin.com/in/allie-firebaugh/" target="_blank"><ion-icon name="logo-linkedin"></ion-icon>LinkedIn</a></span>
+                        </div>
+                        <div class="col m3">
+                            <span><a class="acLink" href="attachments/Firebaugh_technical_resume_1_26_19.pdf" target="_blank">My Resume</a></span>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
