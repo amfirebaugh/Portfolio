@@ -89,6 +89,14 @@ body {
     color: #B4413B;
 }
 
+.aSite:hover {
+    color: #f9a9a5;
+}
+
+.aSite:visited {
+    color: #905858;
+}
+
 .iconSpacer {
     margin-right: 30px;
 }
