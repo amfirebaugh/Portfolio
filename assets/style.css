@@ -91,6 +91,11 @@ body {
     margin-bottom: 20px;
 }
 
+.material-icons {
+    vertical-align: -3px;
+    margin-left: 10px;
+}
+
 #allieContact {
     color: #CB8F87;
 }
@@ -105,10 +110,6 @@ body {
 
 .aSite:visited {
     color: #905858;
-}
-
-.iconSpacer {
-    margin-right: 30px;
 }
 
 h3 {
