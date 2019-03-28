@@ -8,8 +8,8 @@
 }
 
 #allieNav {
-    background-color: #CEB1AB;
-    color: #1E1212;
+    background-color: #a58c87;
+    /* color: #1E1212; */
     width: 100%;
 }
 
@@ -21,8 +21,12 @@
     margin-top: 0px;
 }
 
+#allieIntroP {
+    font-size: 16px;
+}
+
 body {
-    color: #3F2D2A;
+    color: white;
 }
 
 #allieBanner {
@@ -31,7 +35,7 @@ body {
 }
 
 #allieAboutMe {
-    background-color: #CEB1AB;
+    background-color: #a58c87;
     padding-top: 20px;
 }
 
@@ -41,8 +45,6 @@ body {
 
 .acLink {
     color: #CB8F87;
-    padding-right: 30px;
-    padding-left: 30px;
     font-size: 18px;
 }
 
@@ -62,6 +64,14 @@ body {
 #aboutMeImage {
     max-height: 90%;
     max-width: 90%;
+    border: 1px solid white;
+    box-shadow: 0 0 20px 8px #fff;
+}
+
+@media only screen and (max-width: 600px) {
+    #aboutMeImage {
+        margin-bottom: 30px;
+    }
 }
 
 #aboutMeBox {
@@ -110,7 +120,7 @@ h3 {
     width: 100%;
     background-color: #3F2D2A;
     height: 100%;
-    color: #B4413B;
+    color: #CB8F87;
     padding-top: 20px;
     padding-bottom: 75px;
 }
