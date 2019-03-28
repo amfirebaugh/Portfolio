@@ -48,12 +48,12 @@ body {
     font-size: 18px;
 }
 
-.acLink:hover {
-    color: white;
-}
-
 .acLink:visited {
     color: rgb(138, 110, 110);
+}
+
+.acLink:hover {
+    color: white;
 }
 
 /* #570302 old link color
@@ -96,6 +96,10 @@ body {
     margin-left: 10px;
 }
 
+.card .card-title {
+    font-weight: 500;
+}
+
 #allieContact {
     color: #CB8F87;
 }
@@ -104,12 +108,12 @@ body {
     color: #B4413B;
 }
 
-.aSite:hover {
-    color: #f9a9a5;
-}
-
 .aSite:visited {
     color: #905858;
+}
+
+.aSite:hover {
+    color: #f9a9a5;
 }
 
 h3 {
