@@ -39,39 +39,17 @@ body {
     padding-top: 20px;
 }
 
-#contactLinksList {
-    margin-top: 70px;
-}
-
-.acLink {
-    color: #CB8F87;
-    font-size: 18px;
-}
-
-.acLink:visited {
-    color: rgb(138, 110, 110);
-}
-
-.acLink:hover {
-    color: white;
-}
-
 /* #570302 old link color
     #CB8F87 
     #3F2D2A - dark
 */
 
 #aboutMeImage {
-    max-height: 90%;
-    max-width: 90%;
+    max-height: 40%;
+    max-width: 40%;
     border: 1px solid white;
     box-shadow: 0 0 20px 8px #fff;
-}
-
-@media only screen and (max-width: 600px) {
-    #aboutMeImage {
-        margin-bottom: 30px;
-    }
+    margin: 20px 20px 20px 0px;
 }
 
 #aboutMeBox {
@@ -93,16 +71,24 @@ body {
 
 .material-icons {
     vertical-align: -3px;
-    margin-left: 10px;
 }
 
 .card .card-title {
     font-weight: 500;
 }
 
-#allieContact {
-    color: #CB8F87;
+.card.small {
+    height: 325px;
 }
+
+/* nothing I try seems to be able to fix the image sizing problem...
+I need to effectively GET RID OF the width: 100% on classes .card {.card-image img} but then would need additional CSS inside media queries for sizes between 600 and 900 px to deal with OTHER sizing and over-flowing issues........ there's just no easy fix around this......
+*/
+/* .card.small .card-image {
+    overflow: hidden;
+    min-height: 60%;
+    width: none;
+} */
 
 .aSite {
     color: #B4413B;
@@ -116,20 +102,6 @@ body {
     color: #f9a9a5;
 }
 
-h3 {
-    text-align: center;
-    padding: 30px;
-}
-
-#allieBottom {
-    width: 100%;
-    background-color: #3F2D2A;
-    height: 100%;
-    color: #CB8F87;
-    padding-top: 20px;
-    padding-bottom: 75px;
-}
-
 #resourceBanner {
     padding-bottom: 30px;
     padding-top: 20px;
@@ -140,7 +112,7 @@ h3 {
 }
 
 .backToTop {
-    color: white;
+    color: #f9a9a5;
     font-size: 16px;
 }
 
@@ -150,6 +122,60 @@ h3 {
 }
 
 #backToTopPadBottom {
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+#allieBottom {
+    width: 100%;
+    background-color: #3F2D2A;
+    height: 100%;
+    color: white;
+}
+
+.acLink {
+    color: white;
+    font-size: 18px;
+}
+
+.acLink:visited {
+    color: rgb(138, 110, 110);
+}
+
+.acLink:hover {
+    color: #B4413B;
+}
+
+/* OLD acLink */
+/* color: #CB8F87 */
+
+/* OLD acLink:visited */
+/* color: rgb(138, 110, 110) */
+
+/* OLD acLink:hover */
+/* color: white */
+
+#allieFooter {
+    background-color: #2b2220;
+    padding-bottom: 30px;
+}
+
+#contactLinksList {
+    margin-top: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+    #aboutMeImage {
+        margin-bottom: 30px;
+    }
+    .acLink {
+        font-size: 14px;
+    }
+}
+
+/* below is for iPad screen */
+@media only screen and (min-width: 601px) {
+    .card.small .card-image+.card-content {
+        max-height: 60%;
+    }
 }
