@@ -1,373 +1,793 @@
 <!DOCTYPE html>
 <html>
-<head>
+  <head>
     <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>A.Firebaugh</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <!-- Materialize CSS -->
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"/>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
     <!-- Materialize Icons -->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
     <!-- Custom CSS -->
-    <link rel="stylesheet" type="text/css" media="screen" href="assets/style.css"/>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="assets/style.css"
+    />
     <!-- Google Font -->
-    <link href="https://fonts.googleapis.com/css?family=Pattaya" rel="stylesheet">
-</head>
-<body>
+    <link
+      href="https://fonts.googleapis.com/css?family=Pattaya"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <!-- Nav Bar -->
     <div id="allieNav" class="scrollspy">
-        <div class="row container allieRow">
-            <nav class="transparent z-depth-0">
-                <div class="nav-wrapper">
-                    <a href="#!" class="brand-logo left" id="allieLogo">Allie Firebaugh</a>
-                    <a href="#" data-target="mobile-demo" class="right sidenav-trigger hide-on-med-and-up"><i class="material-icons">menu</i></a>
-                    <ul id="nav-mobile" class="right hide-on-small-and-down">
-                        <li><a class="allieNavLinks" href="#alliePortScroll">Projects</a></li>
-                        <li><a class="allieNavLinks" href="#allieBottom">Inspiration</a></li>
-                        <li><a class="allieNavLinks" href="#allieContact">Contact</a></li>
-                    </ul>
-                </div>
-            </nav>
-            <ul class="sidenav" id="mobile-demo">
-                <li><a class="allieNavLinks" href="#alliePortScroll">Projects</a></li>
-                <li><a class="allieNavLinks" href="#allieBottom">Inspiration</a></li>
-                <li><a class="allieNavLinks" href="#allieContact">Contact</a></li>
+      <div class="row container allieRow">
+        <nav class="transparent z-depth-0">
+          <div class="nav-wrapper">
+            <a href="#!" class="brand-logo left" id="allieLogo"
+              >Allie Firebaugh</a
+            >
+            <a
+              href="#"
+              data-target="mobile-demo"
+              class="right sidenav-trigger hide-on-med-and-up"
+              ><i class="material-icons">menu</i></a
+            >
+            <ul id="nav-mobile" class="right hide-on-small-and-down">
+              <li>
+                <a class="allieNavLinks" href="#alliePortScroll">Projects</a>
+              </li>
+              <li>
+                <a class="allieNavLinks" href="#allieBottom">Inspiration</a>
+              </li>
+              <li><a class="allieNavLinks" href="#allieContact">Contact</a></li>
             </ul>
-        </div>
+          </div>
+        </nav>
+        <ul class="sidenav" id="mobile-demo">
+          <li><a class="allieNavLinks" href="#alliePortScroll">Projects</a></li>
+          <li><a class="allieNavLinks" href="#allieBottom">Inspiration</a></li>
+          <li><a class="allieNavLinks" href="#allieContact">Contact</a></li>
+        </ul>
+      </div>
     </div>
 
     <div id="allieAboutMe">
-        <div class="row container allieRow" id="allieBanner">
-            <div class="col m12 center-align">
-                <h3>Full Stack Developer in Richmond, VA</h3>
-            </div>
+      <div class="row container">
+        <div class="col m12 center-align">
+          <h3>Full Stack Developer in Richmond, VA</h3>
         </div>
-
-        <div class="row container allieRow" id="aboutMeBox">
-            <div class="col s12">
-                <img class="responsive-image circle left" id="aboutMeImage" src="assets/images/starting_bootcamp.jpg">
-                <h5 id="allieName">Alexandra (Allie) Mae Firebaugh</h5>
-                <p id="allieIntroP flow-text">Full Stack Web Developer enthusiastic about working in a team environment to solve problems and improve user interface friendliness!
-                <br><br>
-                Graduating the University of Richmond Full Stack Web Development Coding Bootcamp, I love leveraging my past experience as a teacher to demonstrate my strong communication skills. With additional formal education in physics and math I am also eager to utilize my strong critical thinking and analytical skills in the technology industry. What really motivates me moving forward in the world of web development is the need to continually tackle new tasks and learn new technologies. I am completely driven by new knowledge and a never-ending work flow of solving issues.
-                <br><br>
-                I truly enjoy bringing positive energy into a work environment and coming together with colleagues to keep learning. I look forward to creating and maintaining purposeful and relevant web applications that can continue to evolve for future needs!
-                </p>
-            </div>
+      </div>
+      <div class="row container allieRow" id="aboutMeBox">
+        <div class="col s12">
+          <img
+            class="responsive-image circle left"
+            id="aboutMeImage"
+            src="assets/images/starting_bootcamp.jpg"
+          />
+          <h5 id="allieName">Alexandra (Allie) Mae Firebaugh</h5>
+          <p id="allieIntroP flow-text">
+            Full Stack Web Developer enthusiastic about working in a team
+            environment to solve problems and improve user interface
+            friendliness! <br /><br />
+            Graduating the University of Richmond Full Stack Web Development
+            Coding Bootcamp, I love leveraging my past experience as a teacher
+            to demonstrate my strong communication skills. With additional
+            formal education in physics and math I am also eager to utilize my
+            strong critical thinking and analytical skills in the technology
+            industry. What really motivates me moving forward in the world of
+            web development is the need to continually tackle new tasks and
+            learn new technologies. I am completely driven by new knowledge and
+            a never-ending work flow of solving issues.
+            <br /><br />
+            I truly enjoy bringing positive energy into a work environment and
+            coming together with colleagues to keep learning. I look forward to
+            creating and maintaining purposeful and relevant web applications
+            that can continue to evolve for future needs!
+          </p>
         </div>
+      </div>
     </div>
 
     <div id="alliePortfolio">
-        <div class="row container allieRow">
-            <div class="col s12 center-align">
-                <h3>Projects</h3>
+      <div class="row container allieRow">
+        <div class="col s12 center-align">
+          <h3>Projects</h3>
+        </div>
+      </div>
+
+      <div class="row container allieRow">
+        <div class="col s12 right-align backToTopPad">
+          <span
+            ><a class="backToTop" href="#allieNav"
+              >Click to go back to the top.</a
+            ></span
+          >
+        </div>
+      </div>
+
+      <!-- Beginning of Row 1 of project images -->
+      <div class="row container allieRow scrollspy" id="alliePortScroll">
+        <!-- project 1 -->
+        <div class="col m4">
+          <div class="card small">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="assets/images/lost_in_space.JPG" />
             </div>
+            <div class="card-content">
+              <span
+                class="card-title activator grey-text text-darken-4 center-align"
+                >Lost in Space<i class="material-icons">more_vert</i></span
+              >
+              <div class="row center-align">
+                <div class="col s6">
+                  <span
+                    ><a
+                      class="aSite iconSpacer"
+                      href="https://amfirebaugh.github.io/fireballsproject1/"
+                      ><i class="material-icons small">web</i></a
+                    ></span
+                  >
+                  <div class="row">
+                    <div class="col s12">
+                      <a
+                        class="aSite"
+                        href="https://amfirebaugh.github.io/fireballsproject1/"
+                        >Live Site</a
+                      >
+                    </div>
+                  </div>
+                </div>
+                <div class="col s6">
+                  <span
+                    ><a
+                      class="aSite iconSpacer"
+                      href="https://github.com/amfirebaugh/fireballsproject1"
+                      ><i class="material-icons small">code</i></a
+                    ></span
+                  >
+                  <div class="row">
+                    <div class="col s12">
+                      <a
+                        class="aSite"
+                        href="https://github.com/amfirebaugh/fireballsproject1"
+                        >View Code</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4"
+                >Lost in Space<i class="material-icons right">close</i></span
+              >
+              <p class="grey-text text-darken-4">
+                Technologies: Bootstrap, jQuery, API's: NASA Mars Rover, NASA
+                APOD, SWAPI Star Wars
+              </p>
+              <p class="grey-text text-darken-4">
+                This was my first group project using GitHub for overall
+                management.
+              </p>
+              <p class="grey-text text-darken-4">
+                For a target audience of school-age children, this is fun
+                interactive way to learn about the Solar System and Star Wars.
+              </p>
+            </div>
+          </div>
         </div>
 
-        <div class="row container allieRow">
-            <div class="col s12 right-align backToTopPad">
-                <span><a class="backToTop" href="#allieNav">Click to go back to the top.</a></span>
+        <!-- homework 6 -->
+        <div class="col m4">
+          <div class="card small">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img
+                class="activator"
+                src="assets/images/doWhatItSays_spotify.JPG"
+              />
             </div>
+            <div class="card-content">
+              <span
+                class="card-title activator grey-text text-darken-4 center-align"
+                >Liri Node App<i class="material-icons">more_vert</i></span
+              >
+              <div class="row center-align">
+                <div class="col s12">
+                  <span
+                    ><a
+                      class="aSite"
+                      href="https://github.com/amfirebaugh/liri-node-app"
+                      ><i class="material-icons small">code</i></a
+                    ></span
+                  >
+                  <div class="row">
+                    <div class="col s12">
+                      <a
+                        class="aSite"
+                        href="https://github.com/amfirebaugh/liri-node-app"
+                        >View Code</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4"
+                >Liri Node App<i class="material-icons right">close</i></span
+              >
+              <p class="grey-text text-darken-4">
+                Technologies: Node.js, API's, NPM packages: axios, moment,
+                node-spotify-api
+              </p>
+              <p class="grey-text text-darken-4">
+                My first Node.js application that calls a few API's.
+              </p>
+              <p class="grey-text text-darken-4">
+                Test it out yourself to get information about songs, bands, and
+                movies! If your input is ever wrong, the application will
+                happily tell you how to format your command line prompt.
+              </p>
+            </div>
+          </div>
         </div>
 
-        <!-- Beginning of Row 1 of project images -->
-        <div class="row container allieRow scrollspy" id="alliePortScroll">
-            <!-- project 1 -->
-            <div class="col m4">
-                <div class="card small">
-                    <div class="card-image waves-effect waves-block waves-light">
-                        <img class="activator" src="assets/images/lost_in_space.JPG">
-                    </div>
-                    <div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4 center-align">Lost in Space<i class="material-icons">more_vert</i></span>
-                        <div class="row center-align">
-                            <div class="col s6">
-                                <span><a class="aSite iconSpacer" href="https://amfirebaugh.github.io/fireballsproject1/"><i class="material-icons small">web</i></a></span>
-                                <div class="row">
-                                    <div class="col s12">
-                                        <a class="aSite" href="https://amfirebaugh.github.io/fireballsproject1/">Live Site</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col s6">
-                                <span><a class="aSite iconSpacer" href="https://github.com/amfirebaugh/fireballsproject1"><i class="material-icons small">code</i></a></span>
-                                <div class="row">
-                                    <div class="col s12">
-                                        <a class="aSite" href="https://github.com/amfirebaugh/fireballsproject1">View Code</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-reveal">
-                        <span class="card-title grey-text text-darken-4">Lost in Space<i class="material-icons right">close</i></span>
-                        <p class="grey-text text-darken-4">Technologies: Bootstrap, jQuery, API's: NASA Mars Rover, NASA APOD, SWAPI Star Wars</p>
-                        <p class="grey-text text-darken-4">This was my first group project using GitHub for overall management.</p>
-                        <p class="grey-text text-darken-4">For a target audience of school-age children, this is fun interactive way to learn about the Solar System and Star Wars.</p>
-                    </div>
-                </div>
+        <!-- homework 7 -->
+        <div class="col m4">
+          <div class="card small">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img
+                class="activator alliePortImg"
+                src="assets/images/WamazonManager.JPG"
+              />
             </div>
-        
-            <!-- homework 6 -->
-            <div class="col m4">
-                <div class="card small">
-                    <div class="card-image waves-effect waves-block waves-light">
-                        <img class="activator" src="assets/images/doWhatItSays_spotify.JPG">
+            <div class="card-content">
+              <span
+                class="card-title activator grey-text text-darken-4 center-align"
+                >Wamazon App<i class="material-icons">more_vert</i></span
+              >
+              <div class="row center-align">
+                <div class="col s12">
+                  <span
+                    ><a
+                      class="aSite"
+                      href="https://github.com/amfirebaugh/wamazon"
+                      ><i class="material-icons small">code</i></a
+                    ></span
+                  >
+                  <div class="row">
+                    <div class="col s12">
+                      <a
+                        class="aSite"
+                        href="https://github.com/amfirebaugh/wamazon"
+                        >View Code</a
+                      >
                     </div>
-                    <div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4 center-align">Liri Node App<i class="material-icons">more_vert</i></span>
-                        <div class="row center-align">
-                            <div class="col s12">
-                                <span><a class="aSite" href="https://github.com/amfirebaugh/liri-node-app"><i class="material-icons small">code</i></a></span>
-                                <div class="row">
-                                    <div class="col s12">
-                                        <a class="aSite" href="https://github.com/amfirebaugh/liri-node-app">View Code</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-reveal">
-                        <span class="card-title grey-text text-darken-4">Liri Node App<i class="material-icons right">close</i></span>
-                        <p class="grey-text text-darken-4">Technologies: Node.js, API's, NPM packages: axios, moment, node-spotify-api</p>
-                        <p class="grey-text text-darken-4">My first Node.js application that calls a few API's.</p>
-                        <p class="grey-text text-darken-4">Test it out yourself to get information about songs, bands, and movies! If your input is ever wrong, the application will happily tell you how to format your command line prompt.</p>
-                    </div>
+                  </div>
                 </div>
+              </div>
             </div>
-
-            <!-- homework 7 -->
-            <div class="col m4">
-                <div class="card small">
-                    <div class="card-image waves-effect waves-block waves-light">
-                        <img class="activator alliePortImg" src="assets/images/WamazonManager.JPG">
-                    </div>
-                    <div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4 center-align">Wamazon App<i class="material-icons">more_vert</i></span>
-                        <div class="row center-align">
-                            <div class="col s12">
-                                <span><a class="aSite" href="https://github.com/amfirebaugh/wamazon"><i class="material-icons small">code</i></a></span>
-                                <div class="row">
-                                    <div class="col s12">
-                                        <a class="aSite" href="https://github.com/amfirebaugh/wamazon">View Code</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-reveal">
-                        <span class="card-title grey-text text-darken-4">Wamazon Node and MySQL App<i class="material-icons right">close</i></span>
-                        <p class="grey-text text-darken-4">Technologies: Node.js, MySQL, inquirer NPM package</p>
-                        <p class="grey-text text-darken-4">My first time using MySQL for database usage.</p>
-                        <p class="grey-text text-darken-4">Run it yourself as either a customer or a manager as it prompts you through menu options to make decisions about products.</p>
-                    </div>
-                </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4"
+                >Wamazon Node and MySQL App<i class="material-icons right"
+                  >close</i
+                ></span
+              >
+              <p class="grey-text text-darken-4">
+                Technologies: Node.js, MySQL, inquirer NPM package
+              </p>
+              <p class="grey-text text-darken-4">
+                My first time using MySQL for database usage.
+              </p>
+              <p class="grey-text text-darken-4">
+                Run it yourself as either a customer or a manager as it prompts
+                you through menu options to make decisions about products.
+              </p>
             </div>
+          </div>
+        </div>
         <!-- End of Row 1 of projects -->
-        </div>
+      </div>
 
-        <div class="row container allieRow">
-            <div class="col s12 right-align backToTopPad">
-                <span><a class="backToTop" href="#allieNav">Click to go back to the top.</a></span>
+      <div class="row container allieRow">
+        <div class="col s12 right-align backToTopPad">
+          <span
+            ><a class="backToTop" href="#allieNav"
+              >Click to go back to the top.</a
+            ></span
+          >
+        </div>
+      </div>
+
+      <!-- Beginning of Row 2 of projects -->
+      <div class="row container allieRow">
+        <!-- friend finder homework -->
+        <div class="col m4">
+          <div class="card small">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img
+                class="activator alliePortImg"
+                src="assets/images/friend_finder.JPG"
+              />
             </div>
-        </div>
-
-        <!-- Beginning of Row 2 of projects -->
-        <div class="row container allieRow">
-            <!-- friend finder homework -->
-            <div class="col m4">
-                <div class="card small">
-                    <div class="card-image waves-effect waves-block waves-light">
-                        <img class="activator alliePortImg" src="assets/images/friend_finder.JPG">
+            <div class="card-content">
+              <span
+                class="card-title activator grey-text text-darken-4 center-align"
+                >Friend Finder<i class="material-icons">more_vert</i></span
+              >
+              <div class="row center-align">
+                <div class="col s6">
+                  <span
+                    ><a
+                      class="aSite iconSpacer"
+                      href="https://friend-finder-firebaugh.herokuapp.com/"
+                      ><i class="material-icons small">web</i></a
+                    ></span
+                  >
+                  <div class="row">
+                    <div class="col s12">
+                      <a
+                        class="aSite"
+                        href="https://friend-finder-firebaugh.herokuapp.com/"
+                        >View Site</a
+                      >
                     </div>
-                    <div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4 center-align">Friend Finder<i class="material-icons">more_vert</i></span>
-                        <div class="row center-align">
-                            <div class="col s6">
-                                <span><a class="aSite iconSpacer" href="https://friend-finder-firebaugh.herokuapp.com/"><i class="material-icons small">web</i></a></span>
-                                <div class="row">
-                                    <div class="col s12">
-                                        <a class="aSite" href="https://friend-finder-firebaugh.herokuapp.com/">View Site</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col s6">
-                                <span><a class="aSite" href="https://github.com/amfirebaugh/FriendFinder"><i class="material-icons small">code</i></a></span>
-                                <div class="row">
-                                    <div class="col s12">
-                                        <a class="aSite" href="https://github.com/amfirebaugh/FriendFinder">View Code</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-reveal">
-                        <span class="card-title grey-text text-darken-4">Friend Finder<i class="material-icons right">close</i></span>
-                        <p class="grey-text text-darken-4">Technologies: Node.js, Express.js, body-parser NPM package</p>
-                        <p class="grey-text text-darken-4">My first Express.js and true full-stack application.</p>
-                        <p class="grey-text text-darken-4">User fills out a survey to find their best match from the friend API created by this website, which is also viewable via the homepage.</p>
-                    </div>
+                  </div>
                 </div>
-            </div>
-
-            <!-- burgerlicious homework -->
-            <div class="col m4">
-                <div class="card small">
-                    <div class="card-image waves-effect waves-block waves-light">
-                        <img class="activator alliePortImg" src="assets/images/Burgerlicious_2.JPG">
+                <div class="col s6">
+                  <span
+                    ><a
+                      class="aSite"
+                      href="https://github.com/amfirebaugh/FriendFinder"
+                      ><i class="material-icons small">code</i></a
+                    ></span
+                  >
+                  <div class="row">
+                    <div class="col s12">
+                      <a
+                        class="aSite"
+                        href="https://github.com/amfirebaugh/FriendFinder"
+                        >View Code</a
+                      >
                     </div>
-                    <div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4 center-align">Burgerlicious<i class="material-icons">more_vert</i></span>
-                        <div class="row center-align">
-                            <div class="col s6">
-                                <span><a class="aSite iconSpacer" href="https://burgerlicious-fire.herokuapp.com/"><i class="material-icons small">web</i></a></span>
-                                <div class="row">
-                                    <div class="col s12">
-                                        <a class="aSite" href="https://burgerlicious-fire.herokuapp.com/">View Site</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col s6">
-                                <span><a class="aSite" href="https://github.com/amfirebaugh/Burger-Maker"><i class="material-icons small">code</i></a></span>
-                                <div class="row">
-                                    <div class="col s12">
-                                        <a class="aSite" href="https://github.com/amfirebaugh/Burger-Maker">View Code</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-reveal">
-                        <span class="card-title grey-text text-darken-4">Burgerlicious<i class="material-icons right">close</i></span>
-                        <p class="grey-text text-darken-4">Technologies: Node.js, Express.js, Handlebars.js, MySQL</p>
-                        <p class="grey-text text-darken-4">This application uses the MVC design pattern (my first) to acoomplish the full-stack development.</p>
-                        <p class="grey-text text-darken-4">User can create a new burger using a text input field and update or delete a burger via clicking icons on the page.</p>
-                    </div>
+                  </div>
                 </div>
+              </div>
             </div>
-
-            <!-- group project 2 -->
-            <div class="col m4">
-                <div class="card small">
-                    <div class="card-image waves-effect waves-block waves-light">
-                        <img class="activator alliePortImg" src="assets/images/inteRXact_2.JPG">
-                    </div>
-                    <div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4 center-align">InteRXact<i class="material-icons">more_vert</i></span>
-                        <div class="row center-align">
-                            <div class="col s6">
-                                <span><a class="aSite iconSpacer" href="https://interxact.herokuapp.com/"><i class="material-icons small">web</i></a></span>
-                                <div class="row">
-                                    <div class="col s12">
-                                        <a class="aSite" href="https://interxact.herokuapp.com/">View Site</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col s6">
-                                <span><a class="aSite" href="https://github.com/amfirebaugh/fireballsProject2"><i class="material-icons small">code</i></a></span>
-                                <div class="row">
-                                    <div class="col s12">
-                                        <a class="aSite" href="https://github.com/amfirebaugh/fireballsProject2">View Code</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-reveal">
-                        <span class="card-title grey-text text-darken-4">InteRXact<i class="material-icons right">close</i></span>
-                        <p class="grey-text text-darken-4">Technologies: Node.js, Express.js, Sequelize, Bower, Pug, APIs</p>
-                        <p class="grey-text text-darken-4">This application uses the MVC design pattern and was my first full-stack group project developed over two weeks.</p>
-                        <p class="grey-text text-darken-4">Client creates a new profile and searches for medication interactions. Profile and searches are saved to our database so they can be viewed again. Our group has plenty of plans for future development for this site!</p>
-                    </div>
-                </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4"
+                >Friend Finder<i class="material-icons right">close</i></span
+              >
+              <p class="grey-text text-darken-4">
+                Technologies: Node.js, Express.js, body-parser NPM package
+              </p>
+              <p class="grey-text text-darken-4">
+                My first Express.js and true full-stack application.
+              </p>
+              <p class="grey-text text-darken-4">
+                User fills out a survey to find their best match from the friend
+                API created by this website, which is also viewable via the
+                homepage.
+              </p>
             </div>
+          </div>
         </div>
 
-        <div class="row container allieRow">
-            <div class="col s12 right-align backToTopPad">
-                <span><a class="backToTop" href="#allieNav">Click to go back to the top.</a></span>
+        <!-- burgerlicious homework -->
+        <div class="col m4">
+          <div class="card small">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img
+                class="activator alliePortImg"
+                src="assets/images/Burgerlicious_2.JPG"
+              />
             </div>
+            <div class="card-content">
+              <span
+                class="card-title activator grey-text text-darken-4 center-align"
+                >Burgerlicious<i class="material-icons">more_vert</i></span
+              >
+              <div class="row center-align">
+                <div class="col s6">
+                  <span
+                    ><a
+                      class="aSite iconSpacer"
+                      href="https://burgerlicious-fire.herokuapp.com/"
+                      ><i class="material-icons small">web</i></a
+                    ></span
+                  >
+                  <div class="row">
+                    <div class="col s12">
+                      <a
+                        class="aSite"
+                        href="https://burgerlicious-fire.herokuapp.com/"
+                        >View Site</a
+                      >
+                    </div>
+                  </div>
+                </div>
+                <div class="col s6">
+                  <span
+                    ><a
+                      class="aSite"
+                      href="https://github.com/amfirebaugh/Burger-Maker"
+                      ><i class="material-icons small">code</i></a
+                    ></span
+                  >
+                  <div class="row">
+                    <div class="col s12">
+                      <a
+                        class="aSite"
+                        href="https://github.com/amfirebaugh/Burger-Maker"
+                        >View Code</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4"
+                >Burgerlicious<i class="material-icons right">close</i></span
+              >
+              <p class="grey-text text-darken-4">
+                Technologies: Node.js, Express.js, Handlebars.js, MySQL
+              </p>
+              <p class="grey-text text-darken-4">
+                This application uses the MVC design pattern (my first) to
+                acoomplish the full-stack development.
+              </p>
+              <p class="grey-text text-darken-4">
+                User can create a new burger using a text input field and update
+                or delete a burger via clicking icons on the page.
+              </p>
+            </div>
+          </div>
         </div>
 
-    <!-- End of Portfolio / Projects Section -->
+        <!-- group project 2 -->
+        <div class="col m4">
+          <div class="card small">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img
+                class="activator alliePortImg"
+                src="assets/images/inteRXact_2.JPG"
+              />
+            </div>
+            <div class="card-content">
+              <span
+                class="card-title activator grey-text text-darken-4 center-align"
+                >InteRXact<i class="material-icons">more_vert</i></span
+              >
+              <div class="row center-align">
+                <div class="col s6">
+                  <span
+                    ><a
+                      class="aSite iconSpacer"
+                      href="https://interxact.herokuapp.com/"
+                      ><i class="material-icons small">web</i></a
+                    ></span
+                  >
+                  <div class="row">
+                    <div class="col s12">
+                      <a class="aSite" href="https://interxact.herokuapp.com/"
+                        >View Site</a
+                      >
+                    </div>
+                  </div>
+                </div>
+                <div class="col s6">
+                  <span
+                    ><a
+                      class="aSite"
+                      href="https://github.com/amfirebaugh/fireballsProject2"
+                      ><i class="material-icons small">code</i></a
+                    ></span
+                  >
+                  <div class="row">
+                    <div class="col s12">
+                      <a
+                        class="aSite"
+                        href="https://github.com/amfirebaugh/fireballsProject2"
+                        >View Code</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4"
+                >InteRXact<i class="material-icons right">close</i></span
+              >
+              <p class="grey-text text-darken-4">
+                Technologies: Node.js, Express.js, Sequelize, Bower, Pug, APIs
+              </p>
+              <p class="grey-text text-darken-4">
+                This application uses the MVC design pattern and was my first
+                full-stack group project developed over two weeks.
+              </p>
+              <p class="grey-text text-darken-4">
+                Client creates a new profile and searches for medication
+                interactions. Profile and searches are saved to our database so
+                they can be viewed again. Our group has plenty of plans for
+                future development for this site!
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row container allieRow">
+        <div class="col s12 right-align backToTopPad">
+          <span
+            ><a class="backToTop" href="#allieNav"
+              >Click to go back to the top.</a
+            ></span
+          >
+        </div>
+      </div>
+
+      <!-- Beginning of Row 3 of Projects -->
+      <div class="row container allieRow">
+        <!-- clicky game / memory game homework -->
+        <div class="col m4">
+          <div class="card small">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img
+                class="activator alliePortImg"
+                src="assets/images/clicky_game.JPG"
+              />
+            </div>
+            <div class="card-content">
+              <span
+                class="card-title activator grey-text text-darken-4 center-align"
+                >Memory Game<i class="material-icons">more_vert</i></span
+              >
+              <div class="row center-align">
+                <div class="col s6">
+                  <span
+                    ><a
+                      class="aSite iconSpacer"
+                      href="https://amfirebaugh.github.io/ClickyGame/"
+                      ><i class="material-icons small">web</i></a
+                    ></span
+                  >
+                  <div class="row">
+                    <div class="col s12">
+                      <a
+                        class="aSite"
+                        href="https://amfirebaugh.github.io/ClickyGame/"
+                        >View Site</a
+                      >
+                    </div>
+                  </div>
+                </div>
+                <div class="col s6">
+                  <span
+                    ><a
+                      class="aSite"
+                      href="https://github.com/amfirebaugh/ClickyGame"
+                      ><i class="material-icons small">code</i></a
+                    ></span
+                  >
+                  <div class="row">
+                    <div class="col s12">
+                      <a
+                        class="aSite"
+                        href="https://github.com/amfirebaugh/ClickyGame"
+                        >View Code</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4"
+                >Memory Game<i class="material-icons right">close</i></span
+              >
+              <p class="grey-text text-darken-4">
+                Technologies: Node.js, React.js
+              </p>
+              <p class="grey-text text-darken-4">
+                My first React application.
+              </p>
+              <p class="grey-text text-darken-4">
+                A Doug Funnie themed memory game where user clicks image cards,
+                trying not to repeat or else the score empties out. (With each
+                click the image cards get shuffled.) Top score is stored on the
+                page to view.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- End of Row 3 of Projects -->
+      </div>
+
+      <div class="row container allieRow">
+        <div class="col s12 right-align backToTopPad">
+          <span
+            ><a class="backToTop" href="#allieNav"
+              >Click to go back to the top.</a
+            ></span
+          >
+        </div>
+      </div>
+
+      <!-- End of Portfolio / Projects Section -->
     </div>
 
     <div id="allieBottom" class="scrollspy">
-        <!-- Row for Inspiration Content -->
-        <div class="row container allieRow">
-            <div id="resourceBanner">
-            <h4 class="center-align">Resources I enjoy using to learn new things:</h4>
-            </div>
-            <!-- Left Column -->
-            <div class="col s6">
-                <h5 class="titleUnderline">Technical:</h5>
-                <ul>
-                    <li><a class="acLink" href="https://www.pluralsight.com/">PLURALSIGHT</a></li>
-                    <li><a class="acLink" href="https://www.w3schools.com/">w3schools</a></li>
-                    <li><a class="acLink" href="https://stackoverflow.com/">stack overflow</a></li>
-                    <li><a class="acLink" href="https://www.programmableweb.com/">Programmable Web</a></li>
-                    <li><a class="acLink" href="https://www.npmjs.com/">npm</a></li>
-                    <li><a class="acLink" href="https://github.com/getify/You-Dont-Know-JS">You Don't Know JS</a></li>
-                </ul>
-            </div>
-            
-            <!-- Right Column -->
-            <div class="col s6">
-                <h5 class="titleUnderline">Media Content:</h5>
-                <ul>
-                    <li><a class="acLink" href="https://www.codenewbie.org/podcast">CodeNewbies (Podcast)</a></li>
-                    <li><a class="acLink" href="https://syntax.fm/">Syntax (Podcast)</a></li>
-                    <li><a class="acLink" href="https://www.youtube.com/channel/UCW5YeuERMmlnqo4oq8vwUpg">Net Ninja (YouTube)</a></li>
-                    <li><a class="acLink" href="https://www.youtube.com/channel/UCyIe-61Y8C4_o-zZCtO4ETQ">DevTips (YouTube)</a></li>
-                    <li><a class="acLink" href="https://www.youtube.com/channel/UC29ju8bIPH5as8OGnQzwJyA">Traversy Media (YouTube)</a></li>
-                    <li><a class="acLink" href="https://www.youtube.com/channel/UCxX9wt5FWQUAAz4UrysqK9A">CS Dojo (YouTube)</a></li>
-                </ul>
-            </div>
+      <!-- Row for Inspiration Content -->
+      <div class="row container allieRow">
+        <div id="resourceBanner">
+          <h4 class="center-align">
+            Resources I enjoy using to learn new things:
+          </h4>
+        </div>
+        <!-- Left Column -->
+        <div class="col s6">
+          <h5 class="titleUnderline">Technical:</h5>
+          <ul>
+            <li>
+              <a class="acLink" href="https://www.pluralsight.com/"
+                >PLURALSIGHT</a
+              >
+            </li>
+            <li>
+              <a class="acLink" href="https://www.w3schools.com/">w3schools</a>
+            </li>
+            <li>
+              <a class="acLink" href="https://stackoverflow.com/"
+                >stack overflow</a
+              >
+            </li>
+            <li>
+              <a class="acLink" href="https://www.programmableweb.com/"
+                >Programmable Web</a
+              >
+            </li>
+            <li><a class="acLink" href="https://www.npmjs.com/">npm</a></li>
+            <li>
+              <a
+                class="acLink"
+                href="https://github.com/getify/You-Dont-Know-JS"
+                >You Don't Know JS</a
+              >
+            </li>
+          </ul>
         </div>
 
-        <!-- Just row for link to go back to top -->
-        <div id="backToTopPadBottom" class="row container allieRow">
-            <div class="col s12 right-align backToTopPad">
-                <span><a class="backToTop" href="#allieNav">Click to go back to the top.</a></span>
-            </div>
+        <!-- Right Column -->
+        <div class="col s6">
+          <h5 class="titleUnderline">Media Content:</h5>
+          <ul>
+            <li>
+              <a class="acLink" href="https://www.codenewbie.org/podcast"
+                >CodeNewbies (Podcast)</a
+              >
+            </li>
+            <li>
+              <a class="acLink" href="https://syntax.fm/">Syntax (Podcast)</a>
+            </li>
+            <li>
+              <a
+                class="acLink"
+                href="https://www.youtube.com/channel/UCW5YeuERMmlnqo4oq8vwUpg"
+                >Net Ninja (YouTube)</a
+              >
+            </li>
+            <li>
+              <a
+                class="acLink"
+                href="https://www.youtube.com/channel/UCyIe-61Y8C4_o-zZCtO4ETQ"
+                >DevTips (YouTube)</a
+              >
+            </li>
+            <li>
+              <a
+                class="acLink"
+                href="https://www.youtube.com/channel/UC29ju8bIPH5as8OGnQzwJyA"
+                >Traversy Media (YouTube)</a
+              >
+            </li>
+            <li>
+              <a
+                class="acLink"
+                href="https://www.youtube.com/channel/UCxX9wt5FWQUAAz4UrysqK9A"
+                >CS Dojo (YouTube)</a
+              >
+            </li>
+          </ul>
         </div>
+      </div>
+
+      <!-- Just row for link to go back to top -->
+      <div id="backToTopPadBottom" class="row container allieRow">
+        <div class="col s12 right-align backToTopPad">
+          <span
+            ><a class="backToTop" href="#allieNav"
+              >Click to go back to the top.</a
+            ></span
+          >
+        </div>
+      </div>
     </div>
 
     <footer class="page-footer" id="allieFooter">
-        <div class="container">
-            <div class="row allieRow scrollspy" id="allieContact">
-                <h4 class="center-align">Contact Me</h4>
-                <div class="col s12 center-align">
-                    <div id="contactLinksList">
-                        <div class="row">
-                            <div class="col s3">
-                                <span><a class="acLink" href="mailto:alliefirebaugh@gmail.com">Email Me</a></span>
-                            </div>
-                            <div class="col s3">
-                                <span><a class="acLink" href="https://github.com/amfirebaugh" target="_blank"><ion-icon name="logo-github"></ion-icon>GitHub</a></span>
-                            </div>
-                            <div class="col s3">
-                                <span><a class="acLink" href="https://www.linkedin.com/in/allie-firebaugh/" target="_blank"><ion-icon name="logo-linkedin"></ion-icon>LinkedIn</a></span>
-                            </div>
-                            <div class="col s3">
-                                <span><a class="acLink" href="attachments/Firebaugh_Resume_4_3_2019.pdf" target="_blank">My Resume</a></span>
-                            </div>
-                        </div>
-                    </div>
+      <div class="container">
+        <div class="row allieRow scrollspy" id="allieContact">
+          <h4 class="center-align">Contact Me</h4>
+          <div class="col s12 center-align">
+            <div id="contactLinksList">
+              <div class="row valign-center">
+                <div class="col s3 center-align valign-center">
+                  <span
+                    ><a class="acLink" href="mailto:alliefirebaugh@gmail.com"
+                      ><i class="material-icons contactIcon">email</i>Email
+                      Me</a
+                    ></span
+                  >
                 </div>
+                <div class="col s3">
+                  <span
+                    ><a
+                      class="acLink"
+                      href="https://github.com/amfirebaugh"
+                      target="_blank"
+                      ><ion-icon name="logo-github"></ion-icon>GitHub</a
+                    ></span
+                  >
+                </div>
+                <div class="col s3">
+                  <span
+                    ><a
+                      class="acLink"
+                      href="https://www.linkedin.com/in/allie-firebaugh/"
+                      target="_blank"
+                      ><ion-icon name="logo-linkedin"></ion-icon>LinkedIn</a
+                    ></span
+                  >
+                </div>
+                <div class="col s3">
+                  <span
+                    ><a
+                      class="acLink"
+                      href="attachments/Firebaugh_Resume_4_3_2019.pdf"
+                      target="_blank"
+                      ><i class="material-icons contactIcon">description</i
+                      >Resume</a
+                    ></span
+                  >
+                </div>
+              </div>
             </div>
+          </div>
         </div>
+      </div>
     </footer>
-        
-    
 
-
-<!-- JQuery -->
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<!-- Javascript -->
-<script src="assets/app.js"></script>
-<!-- Materialize JS -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-</body>
+    <!-- JQuery -->
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"
+    ></script>
+    <!-- Javascript -->
+    <script src="assets/app.js"></script>
+    <!-- Materialize JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  </body>
 </html>

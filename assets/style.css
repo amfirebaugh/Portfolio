@@ -29,11 +29,6 @@ body {
     color: white;
 }
 
-#allieBanner {
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
-
 #allieAboutMe {
     background-color: #a58c87;
     padding-top: 20px;
@@ -60,8 +55,7 @@ body {
 #alliePortfolio {
     background-color: #65504D;
     margin-bottom: 0px;
-    padding-top: 20px;
-    padding-bottom: 40px;
+    padding-bottom: 20px;
     color: white;
 }
 
@@ -162,6 +156,10 @@ I need to effectively GET RID OF the width: 100% on classes .card {.card-image i
 
 #contactLinksList {
     margin-top: 30px;
+}
+
+.contactIcon {
+    margin-right: 5px;
 }
 
 @media only screen and (max-width: 600px) {
