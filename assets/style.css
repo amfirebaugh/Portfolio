@@ -1,37 +1,37 @@
 .allieRow {
-    width: 90%;
-    margin-bottom: 0px;
+  width: 90%;
+  margin-bottom: 0px;
 }
 
 #allieCustom.container {
-    max-width: 100%;
+  max-width: 100%;
 }
 
 #allieNav {
-    background-color: #a58c87;
-    /* color: #1E1212; */
-    width: 100%;
+  background-color: #a58c87;
+  /* color: #1E1212; */
+  width: 100%;
 }
 
 #allieLogo #allieName #allieProj {
-    font-family: 'Pattaya', sans-serif;
+  font-family: 'Pattaya', sans-serif;
 }
 
 #allieName {
-    margin-top: 0px;
+  margin-top: 0px;
 }
 
 #allieIntroP {
-    font-size: 16px;
+  font-size: 16px;
 }
 
 body {
-    color: white;
+  color: white;
 }
 
 #allieAboutMe {
-    background-color: #a58c87;
-    padding-top: 20px;
+  background-color: #a58c87;
+  padding-top: 20px;
 }
 
 /* #570302 old link color
@@ -40,39 +40,39 @@ body {
 */
 
 #aboutMeImage {
-    max-height: 40%;
-    max-width: 40%;
-    border: 1px solid white;
-    box-shadow: 0 0 20px 8px #fff;
-    margin: 20px 40px 20px 0px;
+  max-height: 30%;
+  max-width: 30%;
+  border: 1px solid white;
+  box-shadow: 0 0 20px 8px #fff;
+  margin: 20px 40px 20px 0px;
 }
 
 #aboutMeBox {
-    margin-bottom: 0px;
-    padding-bottom: 50px;    
+  margin-bottom: 0px;
+  padding-bottom: 50px;
 }
 
 #alliePortfolio {
-    background-color: #65504D;
-    margin-bottom: 0px;
-    padding-bottom: 20px;
-    color: white;
+  background-color: #65504d;
+  margin-bottom: 0px;
+  padding-bottom: 20px;
+  color: white;
 }
 
 #portfolioIntro {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .material-icons {
-    vertical-align: -3px;
+  vertical-align: -3px;
 }
 
 .card .card-title {
-    font-weight: 500;
+  font-weight: 500;
 }
 
 .card.small {
-    height: 325px;
+  height: 325px;
 }
 
 /* nothing I try seems to be able to fix the image sizing problem...
@@ -85,59 +85,59 @@ I need to effectively GET RID OF the width: 100% on classes .card {.card-image i
 } */
 
 .aSite {
-    color: #B4413B;
+  color: #b4413b;
 }
 
 .aSite:visited {
-    color: #905858;
+  color: #905858;
 }
 
 .aSite:hover {
-    color: #f9a9a5;
+  color: #f9a9a5;
 }
 
 #resourceBanner {
-    padding-bottom: 30px;
-    padding-top: 20px;
+  padding-bottom: 30px;
+  padding-top: 20px;
 }
 
 .titleUnderline {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .backToTop {
-    color: #f9a9a5;
-    font-size: 16px;
+  color: #f9a9a5;
+  font-size: 16px;
 }
 
 .backToTopPad {
-    padding: 20px;
-    margin: 20px;
+  padding: 20px;
+  margin: 20px;
 }
 
 #backToTopPadBottom {
-    margin-top: 10px;
-    margin-bottom: 40px;
+  margin-top: 10px;
+  margin-bottom: 40px;
 }
 
 #allieBottom {
-    width: 100%;
-    background-color: #3F2D2A;
-    height: 100%;
-    color: white;
+  width: 100%;
+  background-color: #3f2d2a;
+  height: 100%;
+  color: white;
 }
 
 .acLink {
-    color: white;
-    font-size: 18px;
+  color: white;
+  font-size: 18px;
 }
 
 .acLink:visited {
-    color: rgb(138, 110, 110);
+  color: rgb(138, 110, 110);
 }
 
 .acLink:hover {
-    color: #B4413B;
+  color: #b4413b;
 }
 
 /* OLD acLink */
@@ -150,30 +150,30 @@ I need to effectively GET RID OF the width: 100% on classes .card {.card-image i
 /* color: white */
 
 #allieFooter {
-    background-color: #2b2220;
-    padding-bottom: 30px;
+  background-color: #2b2220;
+  padding-bottom: 30px;
 }
 
 #contactLinksList {
-    margin-top: 30px;
+  margin-top: 30px;
 }
 
 .contactIcon {
-    margin-right: 5px;
+  margin-right: 5px;
 }
 
 @media only screen and (max-width: 600px) {
-    #aboutMeImage {
-        margin-bottom: 30px;
-    }
-    .acLink {
-        font-size: 14px;
-    }
+  #aboutMeImage {
+    margin-bottom: 30px;
+  }
+  .acLink {
+    font-size: 14px;
+  }
 }
 
 /* below is for iPad screen */
 @media only screen and (min-width: 601px) {
-    .card.small .card-image+.card-content {
-        max-height: 60%;
-    }
+  .card.small .card-image + .card-content {
+    max-height: 60%;
+  }
 }
