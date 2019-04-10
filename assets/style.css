@@ -159,7 +159,7 @@ I need to effectively GET RID OF the width: 100% on classes .card {.card-image i
 }
 
 .contactIcon {
-  margin-right: 5px;
+  margin-right: 10px;
 }
 
 @media only screen and (max-width: 600px) {
